@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Calculator</title>
+
+<link href="style.css" rel="stylesheet" />
+<script type="text/javascript" src="calcu.js"></script>
+	
+</head>
+<body>
+	<center>
+	<form name="frm">
+	<input type="textbox" name="txt">
+	<br>
+	<table border="1">
+	<tr>
+		<td><input id="c" type="button" value="clr" onClick="ce()"></td>
+		<td colspan="4"><input id="delete" type="button" value="delete" onClick="del()"></td>
+	</tr>
+		
+	
+	<tr>	
+		<td><input type="button" name="btn9" value="9" onClick="dis(btn9.value)"></td>
+		<td><input type="button" name="btn8" value="8" onClick="dis(btn8.value)"></td>
+		<td><input type="button" name="btn7" value="7" onClick="dis(btn7.value)"></td>
+		<td><input type="button" name="btnd" value="/" onClick="dis(btnd.value)"></td>
+	</tr>
+	<tr>
+		<td><input type="button" name="btn6" value="6" onClick="dis(btn6.value)"></td>
+		<td><input type="button" name="btn5" value="5" onClick="dis(btn5.value)"></td>
+		<td><input type="button" name="btn4" value="4" onClick="dis(btn4.value)"></td>
+		<td><input type="button" name="btnm" value="*" onClick="dis(btnm.value)"></td>
+	</tr>
+	<tr>
+		<td><input type="button" name="btn3" value="3" onClick="dis(btn3.value)"></td>
+		<td><input type="button" name="btn2" value="2" onClick="dis(btn2.value)"></td>
+		<td><input type="button" name="btn1" value="1" onClick="dis(btn1.value)"></td>
+		<td><input type="button" name="btns" value="-" onClick="dis(btns.value)"></td>
+	</tr>
+		<td><input type="button" name="btndot" value="." onClick="dis(btndot.value)"></td>
+		<td><input type="button" name="btn0" value="0" onClick="dis(btn0.value)"></td>
+		<td><input type="button" name="btneq" value="=" onClick="txt.value=eval(txt.value)"></td>
+		<td><input type="button" name="btnp" value="+" onClick="dis(btnp.value)"></td>
+	</table>	
+	</form>
+	</center>
+</body>

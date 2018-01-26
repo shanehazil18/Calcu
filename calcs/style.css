@@ -1,0 +1,47 @@
+ input[type="button"]{
+    
+     background-color:white;
+    border:1px solid #101010;
+    display:inline-block;
+    color:#bbb;
+     font-family:Arial;
+    font-size:50px;
+    line-height:28px;
+    text-decoration:none;
+     text-align:center;
+     margin-bottom:1px;
+     margin-left: 1px;
+    margin-right:1px ;
+    margin-top:1px ;
+    height: 80px; 
+}
+
+input[type="button"]{
+    width: 90px;
+	color: black;
+}
+ input[type="button"]:active {
+    position:relative;
+    background:blue;
+}
+
+input[type="textbox"]{
+	 padding-left: 10px;
+     margin-bottom: 1.5px;
+     font-size: 50px;
+     background-color: white ;n
+     height:195px;
+     width: 390px;
+     border-color:green;
+      color:gray;
+
+}
+#delete{
+	padding-right:280px;
+	
+	
+}
+
+	
+	
+			
